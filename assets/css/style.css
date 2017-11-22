@@ -1,0 +1,87 @@
+body {
+	background-image: url("../images/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+span {
+ 	font-family: 'Croissant One';
+ 	font-size: 75px;
+ 	font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+             url("../images/text1.jpg") repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: #AD974F;
+	padding: 15px;
+}
+
+#paragraph {
+	margin-top: 20px;
+	border: 20px solid;
+    border-image: linear-gradient(pink, #ffe88a) 5;
+	border-image-slice: 30 fill;
+	border-image-width: 30% 30% 10% 30%;
+	
+}
+
+.col-md-3 { 
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #01439C;
+}
+
+
+
+#total {
+	background-color: #FFB6B9;
+	height: 75px;
+	width: 100px;
+}
+
+#userScore {
+	background-color: #BBDED6;
+	height: 50px;
+	width: 200px;
+}
+
+#target-Score{
+	background-color: #61C0BF;
+	height: 75px;
+	width: 200px;
+}
+
+.col-md-1 {
+	margin-top: 20px;
+
+}
+
+.img-responsive {
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+.btn {
+	background-color: transparent;
+	outline: none;
+}
+
+
+
+
+
+

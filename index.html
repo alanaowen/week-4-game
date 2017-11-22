@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Crystal Collector</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- CSS links -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="container">
+
+    <div class="row row-centered">
+      <div class="col-md-12">
+      	<span>Crystals Collector!</span>
+      </div>
+    </div>
+
+    <div class="row row-left">
+      <div class="col-md-6">
+        <div id="paragraph">
+      	  <p>You will be given a random number at the start of the game.</p> 
+      	  <p>There are four crystals on the side. By clicking on a crystal you will add a specific amount of points to your total score.</p> 
+      	  <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p> 
+      	  <p>The value of each crystal is hidden from you until you click on it.</p>
+      	  <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div> <!-- #/paragraph -->
+      </div>  <!-- ./col-md-6 -->
+    
+      <div class="col-md-3">
+        <div id="target-Score"> </div>
+          <br>
+        <div id="userScore">Your total score is:</div>
+           <br>
+        <div id="total">
+          <div id ="win-count"> Wins: </div>
+          <div id="loss-count"> Losses: </div>
+        </div> <!-- #/ anotherBox -->
+      </div> <!-- ./col-md-3 -->
+    
+      <div class="col-md-1">
+      
+        <button type="button" class="btn btn-outline-*"> <img src="assets/images/crystalize.png" id="crystal" class="img-responsive" alt="crystal"> </button> 
+
+        <button type="button" class="btn btn-outline-*"> <img src="assets/images/floating-crystal.png" id="crystal" class="img-responsive"> </button> 
+
+      </div> <!-- ./col-md-1 -->
+
+      <div class="col-md-1">
+        
+        <button type="button" class="btn btn-outline-*"> <img src="assets/images/emerald.png" id="crystal" class="img-responsive"></button> 
+        
+        <button type="button" class="btn btn-outline-*"> <img src="assets/images/crystal-growth.png" id="crystal" class="img-responsive"></button> 
+       
+      </div>  <!-- ./col-md-1 -->
+</div> <!-- ./container -->
+
+ <!-- Javascript link -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
